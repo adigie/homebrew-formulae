@@ -11,7 +11,7 @@ class Autoremap < Formula
   end
 
   service do
-    run [Formula["python@3.10"].opt_bin/"python3", opt_prefix/"autoremap.py", "--interval", "60"]
+    run [Formula["python@3.10"].opt_bin/"python3.10", opt_prefix/"autoremap.py", "--interval", "60"]
     keep_alive true
   end
 
